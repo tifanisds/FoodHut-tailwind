@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="./dist/output.css">
     <link rel="stylesheet" href="./assets/styles/styles.css">
 </head>
-<body>
-    <div id="main" class="container grid grid-cols-1 px-4 py-3">
+<body class="bg-black">
+    <div id="main" class="container grid grid-cols-1 px-5 py-3">
         <nav class="">
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
@@ -59,7 +59,7 @@
                 </div>
             </div>
         </nav>
-        <div class="hero">
+        <div id="hero" class="pb-6">
             <img src="./assets/img/hero.png" alt="" class="mb-10">
             <div>
                 <div class="bg-[#311e1d] flex items-center w-[150px] rounded-2xl py-1">
@@ -83,6 +83,57 @@
             </div>
         </div>
     </div>
+    <div id="today-offers" class="py-5 px-5 flex flex-col items-center mb-13">
+        <h2 class="text-white text-5xl leading-tight font-bold text-center mb-3">Today <span class="text-[#F65F5F]">Special</span> Offers</h2>
+        <p class="text-white text-base text-center mb-[120px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        <div>
+            <div id="food-box" class="w-[310px] h-[368px] bg-[#2d2828] rounded-4xl flex flex-col items-center p-5">
+                <img src="./assets/img/food-1.png" alt="" class="w-[253px] -mt-[100px]">
+                <div class="flex items-center mb-2">
+                    <img src="./assets/img/users.png" alt="" class="w-[74px] h-[38px]">
+                    <img src="./assets/img/Star.png" alt="">
+                    <p class="text-white font-semibold">(4.5)</p>
+                </div>
+                <p class="text-[#F65F5F] text-xl font-bold">Kebab</p>
+                <p class="text-center text-white text-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                <button class="w-[131px] bg-[#F65F5F] rounded-3xl py-2 mt-[20px]">Order Now</button>
+            </div>
+        </div>
+    </div>
+    <footer class="px-5">
+        <p class="text-3xl text-[#F65F5F] font-bold">Foodhut</p>
+        <p class="text-lg text-white mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+        <div class="flex mb-8">
+            <img src="./assets/img/Facebook.svg" alt="" class="mr-2 w-3">
+            <img src="./assets/img/instagram.svg" alt="" class="mx-2 w-5">
+            <img src="./assets/img/Twitter.svg" alt="" class="ml-2 w-5">
+        </div>
+
+        <div>
+            <div class="flex mb-10">
+                <div class="mr-12">
+                    <p class="text-2xl text-[#F65F5F] font-bold mb-3">About Us</p>
+                    <ul class="text-lg text-white">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Service Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Company</a></li>  
+                    </ul>
+                </div>
+
+                <div>
+                    <p class="text-2xl text-[#F65F5F] font-bold mb-3">Company</p>
+                    <ul class="text-lg text-white">
+                        <li><a href="#">Partnership</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Sitemap</a></li>  
+                    </ul>
+                </div>
+            </div>
+            <p class="text-md text-white text-center">Copyright © 2022 Foodhut.</p>
+        </div>
+    </footer>
 
     <script src="https://unpkg.com/flowbite@2.3.0/dist/flowbite.min.js"></script>
 </body>
